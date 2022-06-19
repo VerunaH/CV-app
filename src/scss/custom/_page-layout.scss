@@ -74,6 +74,9 @@ body {
   .skill {
     display: flex;
     justify-content: space-between;
+    &:hover {
+      background-color: #d4eeff;
+    }
 
     &-level {
       display: flex;

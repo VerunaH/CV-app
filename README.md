@@ -1,3 +1,3 @@
 # Veronika Hladká - životopis
 
-Běžící aplikace [http://veronika-hladka.wz.cz/](zde)
+Běžící aplikace [zde](http://veronika-hladka.wz.cz/)

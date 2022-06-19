@@ -5,44 +5,14 @@ $text: #000;
 $text-secondary: #fff;
 $text-light: #fcc7d9;
 $link: $primary;
-// $success:       $green !default;
-// $info:          $cyan !default;
-// $warning:       $yellow !default;
-// $danger:        $red !default;
-//
-
-// $theme-colors: map-remove($theme-colors, "info");
 
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
-  // "success": $success,
-  // // "info": $info,
-  // "warning": $warning,
-  // "danger": $danger,
-  // "light": $light,
-  // "dark": $dark,,,,,
 );
 
 // border
-$border-primary: #d2d3d4;
-$outline-color: #90adc1;
-// $border-#782250
-
-$gray-900: #6d6d6d !default;
 $black: #000 !default;
-
-// $blue: #007bff !default;
-// $indigo: #6610f2 !default;
-// $purple: #6f42c1 !default;
-// $pink: #e83e8c !default;
-$red: #ff0000;
-// $orange: #fd7e14 !default;
-// $yellow: #ffc107 !default;
-// $green: #7da440;
-// $teal: #20c997 !default;
-// $cyan: #17a2b8 !default;
-// $beige: #f9f7ef;
 
 $link-color: $primary;
 $link-hover-color: $primary;
@@ -67,66 +37,11 @@ $nav-link-padding-y: 0.5rem !default;
 $nav-link-color: $text !default;
 $nav-link-hover-color: $text !default;
 
-// $navbar-dark-color: $white;
-// $navbar-dark-hover-color: $black;
-// $navbar-dark-active-color: $white;
-// $navbar-dark-disabled-color: $white;
-
-// form
-// $btn-disabled-opacity: 1 !default;
-
-// $input-btn-padding-y: 0.1875rem !default;
-// $input-btn-padding-x: 0.5rem !default;
-// $input-btn-font-size: 0.833rem !default;
-// $input-border-color: $border-primary !default;
-
-// // focus
-// // $box-shadow-inset: none !default;
-// $input-focus-bg: $secondary !default;
-// $component-active-bg: $secondary !default;
-// $component-active-color: $black !default;
-// $input-focus-border-color: $red !default;
-// $input-btn-focus-color-opacity: 1 !default;
-// $input-btn-focus-color: $secondary !default;
-// $input-btn-focus-blur: none !default;
-// $input-btn-focus-width: 0 !default;
-// $input-btn-focus-box-shadow: none !default;
-
-// // disabled
-// $disabled-color: $gray-900;
-// $input-disabled-bg: $gray-200 !default;
-// $input-disabled-border-color: $border-primary !default;
-// $form-select-disabled-color: $disabled-color !default;
-
-// $input-focus-color: $black;
-// $enable-validation-icons: false !default;
-// $form-feedback-margin-top: 0 !default;
-// $form-feedback-font-size: 0.75rem !default;
-// $form-feedback-invalid-color: $red !default;
-// $legend-font-size: $font-size-base !default;
-
-// // checkboxes, radios
-// $check-color: #767676;
-
-// $form-check-input-width: 0.75rem;
-// $form-check-min-height: 0.75rem;
-// $form-check-padding-start: 1rem;
-// $form-check-margin-bottom: 0.125rem;
-
-// $form-check-input-bg: null;
-// $form-check-input-border: 1px solid $check-color;
-// $form-check-input-border-radius: 2px;
-// $form-check-input-focus-border: $input-focus-color;
-// $form-check-input-focus-box-shadow: $input-btn-focus-box-shadow;
-
-// $form-check-input-checked-color: $check-color;
-// $form-check-input-checked-bg-color: $white;
-// $form-check-input-checked-border-color: $check-color;
-// $form-check-input-checked-bg-image: null;
-// $form-check-radio-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='#{$form-check-input-checked-color}'/></svg>");
-
-// $form-check-input-disabled-opacity: 0.5;
-// $form-check-label-disabled-opacity: $form-check-input-disabled-opacity;
-// $form-check-btn-check-disabled-opacity: null;
-
-// $form-check-inline-margin-end: 0;
+/* layout variables */
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 960px,
+  xxl: 960px,
+);
