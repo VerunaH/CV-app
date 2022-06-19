@@ -1,0 +1,94 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background-color: #fff;
+}
+
+#root,
+#root > .container,
+#root > .container > .row {
+  min-height: 100vh;
+}
+
+#sidebar {
+  background-color: $primary;
+  color: $text-secondary;
+  flex-grow: 1;
+  padding: 1rem;
+  text-align: center;
+  a {
+    color: #fff;
+  }
+}
+
+.sidebar {
+  &-separator {
+    margin: 1rem auto;
+    width: 1.5rem;
+    border-bottom: solid #fff 2px;
+  }
+  &-photo {
+    img {
+      width: 150px;
+      max-width: 100%;
+      border-radius: 50%;
+      border: solid #fff 2px;
+    }
+  }
+  &-name {
+    color: #fff;
+  }
+  &-profession {
+    text-transform: uppercase;
+    color: $text-light;
+    font-size: 0.75rem;
+  }
+}
+
+#main-content {
+  flex-grow: 1;
+  padding: 0.5rem 1rem 3rem 1rem;
+  .heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d4eeff;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+  .separator {
+    margin: 1rem auto;
+    width: 1.5rem;
+    border-bottom: solid $primary 2px;
+  }
+
+  .vertical-separator {
+    margin: 0 0.25rem;
+    border-left: solid #90adc1 2px;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: space-between;
+
+    &-level {
+      display: flex;
+      align-items: center;
+      gap: 1px;
+      span {
+        width: $font-size-base;
+        height: $font-size-base;
+        border-radius: 50%;
+        background-color: #fff;
+        border: solid #000 2px;
+        &.filled {
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.navbar-collapse.show a {
+  padding-left: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+  border-bottom: solid #fff 2px;
+  font-weight: 500;
+  &.active,
+  &:hover {
+    background: none;
+    border-bottom: solid $secondary 2px;
+  }
+}
