@@ -8,7 +8,7 @@ export default function References() {
           <a href="https://github.com/VerunaH/CV-app">
             <strong>Můj životopis</strong>
           </a>
-          : tato aplikace k prohl0dnut9 na gitHubu
+          : tato aplikace k prohlédnutí na gitHubu
         </li>
         <li>
           <a href="https://www.nakviz.cz/">
