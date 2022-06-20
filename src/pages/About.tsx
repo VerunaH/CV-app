@@ -1,3 +1,17 @@
+import { BsWater } from "react-icons/bs";
+import {
+  GiMeal,
+  GiRiceCooker,
+  GiSewingMachine,
+  GiCampingTent,
+  GiDigDug,
+  GiDutchBike,
+  GiCanoe,
+  GiFilmSpool,
+} from "react-icons/gi";
+import { MdTravelExplore, MdOutlineFestival } from "react-icons/md";
+import { IoBeerOutline } from "react-icons/io5";
+
 export default function About() {
   return (
     <>
@@ -16,20 +30,62 @@ export default function About() {
 
       <p>
         Od roku 2008 dělám jako OSVČ souběžně se zaměstnáním webové stránky v
-        PHP, převážně eshopy a rezevrační systémy. S nette jsem začala o 4 roky
+        PHP, převážně eshopy a rezervační systémy. S Nette jsem začala o 4 roky
         později.
       </p>
-      <div className="separator" />
 
-      <h3>Volný čas</h3>
-      <p>
-        Své volno ráda trávím venku s rodinou odpočíváním či prací na zahradě,
-        nebo na výletech.
-        <br />S přáteli vyrážíme pravidelně na vodu, hory, festivaly a jiné
-        akce.
-        <br />
-        Mám ráda cestování, dobré jídlo a koupání.
-      </p>
+      <h3 className="heading-wrapper">Volný čas</h3>
+      <div
+        className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4"
+        id="free-time"
+      >
+        <div className="col">
+          <GiCampingTent />
+          Stanování
+        </div>
+        <div className="col">
+          <GiDutchBike /> Jízda na kole
+        </div>
+        <div className="col">
+          <GiCanoe /> Sjíždění řek
+        </div>
+        <div className="col">
+          <MdOutlineFestival />
+          Hudební festivaly
+        </div>
+        <div className="col">
+          <MdTravelExplore />
+          Cestování
+        </div>
+        <div className="col">
+          <GiFilmSpool />
+          Filmy
+        </div>
+        <div className="col">
+          <IoBeerOutline />
+          Klábosení u piva
+        </div>
+        <div className="col">
+          <BsWater />
+          Koupání
+        </div>
+        <div className="col">
+          <GiMeal />
+          Dobré jídlo
+        </div>
+        <div className="col">
+          <GiRiceCooker />
+          Vaření
+        </div>
+        <div className="col">
+          <GiSewingMachine />
+          Šití
+        </div>
+        <div className="col">
+          <GiDigDug />
+          Rytí a kopání
+        </div>
+      </div>
     </>
   );
 }

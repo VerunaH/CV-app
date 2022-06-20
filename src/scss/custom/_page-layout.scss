@@ -23,6 +23,9 @@ body {
   text-align: center;
   a {
     color: #fff;
+    &:hover {
+      background-color: $secondary;
+    }
   }
 }
 
@@ -71,6 +74,19 @@ body {
     border-left: solid #90adc1 2px;
   }
 
+  #free-time {
+    .col {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      line-height: 1.5rem;
+      padding-bottom: 0.5rem;
+    }
+    svg {
+      font-size: 1.5rem;
+    }
+  }
+
   .skill {
     display: flex;
     justify-content: space-between;
@@ -82,6 +98,7 @@ body {
       display: flex;
       align-items: center;
       gap: 1px;
+      color: #000;
       span {
         width: $font-size-base;
         height: $font-size-base;

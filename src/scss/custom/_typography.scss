@@ -38,8 +38,7 @@ h3 {
 a {
   &:focus,
   &:hover {
-    background-color: $secondary;
-    outline: 0;
+    color: $secondary;
   }
 }
 strong {

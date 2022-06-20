@@ -41,28 +41,76 @@ export default function Work() {
           {renderSkills("ElasticSearch", 2)}
 
           <h3 className="heading-wrapper">IDE a nástroje</h3>
-          <div>Visul Studio Code</div>
-          <div>NetBeans</div>
-          <div>PhpStorm</div>
-          <div>Eclipse</div>
-          <div>Docker</div>
-          <div>git (SourceTree, TortoiseGit)</div>
-          <div>SVN (TortoiseSVN)</div>
-          <div>npm, yarn, gulp</div>
+          <div className="skill">Visul Studio Code</div>
+          <div className="skill">NetBeans</div>
+          <div className="skill">PhpStorm</div>
+          <div className="skill">Eclipse</div>
+          <div className="skill">Docker</div>
+          <div className="skill">git (SourceTree, TortoiseGit)</div>
+          <div className="skill">SVN (TortoiseSVN)</div>
+          <div className="skill">npm, yarn, gulp</div>
         </div>
         <div className="col">
+          <h3 className="heading-wrapper">
+            <span>Řidičský průkaz</span>
+            <span className="skill-level">
+              <strong>B</strong>
+            </span>
+          </h3>
           <h3 className="heading-wrapper">Jazyky</h3>
-          {renderSkills("Angličtina", 4)}
-          {renderSkills("Němčina", 2)}
-          {renderSkills("Francouzština", 2)}
-          {renderSkills("Španělština", 1)}
-
+          <div className="skill">
+            <span className="skill-name">{"Angličtina"}</span>
+            <span className="skill-level">
+              <strong>B2</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Němčina"}</span>
+            <span className="skill-level">
+              <strong>B1</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Francouzština"}</span>
+            <span className="skill-level">
+              <strong>A2</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Španělština"}</span>
+            <span className="skill-level">
+              <strong>A1</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Angličtina"}</span>
+            <span className="skill-level">
+              <strong>B2</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Němčina"}</span>
+            <span className="skill-level">
+              <strong>B1</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Francouzština"}</span>
+            <span className="skill-level">
+              <strong>A2</strong>
+            </span>
+          </div>
+          <div className="skill">
+            <span className="skill-name">{"Španělština"}</span>
+            <span className="skill-level">
+              <strong>A1</strong>
+            </span>
+          </div>
           <h3 className="heading-wrapper">Analytické dovednosti</h3>
           {renderSkills("Modeování business procesů", 4)}
           {renderSkills("Datové modelování", 4)}
           {renderSkills("Návrh uživatelského rozhraní", 4)}
           {renderSkills("Wireframes", 4)}
-
           <h3 className="heading-wrapper">Programy</h3>
           {renderSkills("Enterprice Architect", 4)}
           {renderSkills("MS Office", 4)}
