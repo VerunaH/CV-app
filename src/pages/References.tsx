@@ -5,43 +5,51 @@ export default function References() {
       <h3 className="heading-wrapper">Ukázky mé práce</h3>
       <ul>
         <li>
-          <a href="https://github.com/VerunaH/CV-app">
+          <a
+            href="https://github.com/VerunaH/CV-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             <strong>Můj životopis</strong>
           </a>
           : tato aplikace k prohlédnutí na gitHubu
         </li>
         <li>
-          <a href="https://www.nakviz.cz/">
+          <a href="https://www.nakviz.cz/" target="_blank" rel="noreferrer">
             <strong>NaKvíz</strong>
           </a>
           : správa událostí a bodování týmů, rezervační systém
         </li>
         <li>
-          <a href="https://www.badeko.cz/">
+          <a href="https://www.badeko.cz/" target="_blank" rel="noreferrer">
             <strong>Bedýnky Badeko</strong>
           </a>
           : eshop, skladový systém, EET
         </li>
         <li>
-          <a href="http://www.plavec.net/">
+          <a href="http://www.plavec.net/" target="_blank" rel="noreferrer">
             <strong>Plavec</strong>
           </a>
           : eshop s dárkovými předměty
         </li>
         <li>
-          <a href="https://www.sexomat.cz/">
+          <a href="https://www.sexomat.cz/" target="_blank" rel="noreferrer">
             <strong>Sexomat</strong>
           </a>
           : multijazyčný erotický portál
         </li>
         <li>
-          <a href="http://makovice.net/">
+          <a href="http://makovice.net/" target="_blank" rel="noreferrer">
             <strong>Časopis Makovice</strong>
           </a>
           : webové stránky s objednávkovým formulářem
         </li>
         <li>
-          <a href="https://odpadjepoklad.hnutiduha.cz/">
+          <a
+            href="https://odpadjepoklad.hnutiduha.cz/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <strong> Odpad je poklad</strong>
           </a>
           : web pro kampaň Hnutí Duha

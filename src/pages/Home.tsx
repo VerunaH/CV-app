@@ -10,6 +10,7 @@ export default function Home() {
         </div>
         <div>02/2010 - současnost</div>
       </h3>
+      <div className="text-end">rodičovská dovolená: 12/2013 - 12/2018</div>
       <ul>
         <li>
           <strong>Aplikace PriceTag pro EuroWag</strong> (10/2019 – současnost):

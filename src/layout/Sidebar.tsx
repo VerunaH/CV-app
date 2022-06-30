@@ -1,4 +1,4 @@
-import Photo from "../assets/photo.jpg";
+import Photo from "../assets/photo2.jpg";
 
 import { BsGeoAlt, BsTelephone, BsAt } from "react-icons/bs";
 

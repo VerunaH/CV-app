@@ -22,14 +22,14 @@ export default function Work() {
           {renderSkills("Bootstrap (5.*)", 5)}
           {renderSkills("ReactJS", 4)}
           {renderSkills("jQuery", 4)}
-          {renderSkills("JavaScript", 3)}
+          {renderSkills("JavaScript", 4)}
           {renderSkills("ReactNative", 2)}
           {renderSkills("SEO", 4)}
           {renderSkills("Přístupnost", 3)}
 
           <h3 className="heading-wrapper">Programování</h3>
           {renderSkills("Php (7.*) + Nette (3.1)", 4)}
-          {renderSkills("VisualBasic", 3)}
+          {renderSkills("Visual Basic", 3)}
           {renderSkills("Python", 2)}
           {renderSkills("Java", 2)}
 
@@ -82,30 +82,7 @@ export default function Work() {
               <strong>A1</strong>
             </span>
           </div>
-          <div className="skill">
-            <span className="skill-name">{"Angličtina"}</span>
-            <span className="skill-level">
-              <strong>B2</strong>
-            </span>
-          </div>
-          <div className="skill">
-            <span className="skill-name">{"Němčina"}</span>
-            <span className="skill-level">
-              <strong>B1</strong>
-            </span>
-          </div>
-          <div className="skill">
-            <span className="skill-name">{"Francouzština"}</span>
-            <span className="skill-level">
-              <strong>A2</strong>
-            </span>
-          </div>
-          <div className="skill">
-            <span className="skill-name">{"Španělština"}</span>
-            <span className="skill-level">
-              <strong>A1</strong>
-            </span>
-          </div>
+
           <h3 className="heading-wrapper">Analytické dovednosti</h3>
           {renderSkills("Modeování business procesů", 4)}
           {renderSkills("Datové modelování", 4)}

@@ -24,7 +24,6 @@ function App() {
                 <Route path="/dovednosti/" element={<Skills />} />
                 <Route path="/o-me/" element={<About />} />
                 <Route path="/reference/" element={<References />} />
-                {/* <Route path="/projekty/" element={<Projects />} /> */}
               </Routes>
             </div>
           </div>
