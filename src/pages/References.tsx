@@ -6,13 +6,14 @@ export default function References() {
       <ul>
         <li>
           <a
-            href="https://github.com/VerunaH/CV-app"
+            href="https://github.com/VerunaH/"
             target="_blank"
             rel="noreferrer"
           >
-            <strong>Můj životopis</strong>
+            <strong>GitHub</strong>
           </a>
-          : tato aplikace k prohlédnutí na gitHubu
+          : tato aplikace (ReactJs) a překladač z angliřtiny do pig latin (Php,
+          Nette) k prohlédnutí na gitHubu
         </li>
         <li>
           <a href="https://www.nakviz.cz/" target="_blank" rel="noreferrer">
